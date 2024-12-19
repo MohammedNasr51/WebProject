@@ -745,7 +745,7 @@ footer p {
     font-size: 0.9rem;
 }
 
-button{
+button,input{
     font-family: 'Tektur', sans-serif;
     font-size: normal;
 }
