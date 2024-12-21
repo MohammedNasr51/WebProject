@@ -1,0 +1,75 @@
+.about-header {
+  background: url("../images/smart-watch-is-charger-smart-phone_843415-1947.jpg")
+    no-repeat center center/cover;
+  color: #fff;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #0288d1;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}

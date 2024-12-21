@@ -54,8 +54,8 @@
         // Add items to the cart UI
         cart.forEach((item, index) => {
             const listItem = document.createElement('li');
-            listItem.innerHTML = `
-                ${item.name} - $${item.price} <span class="quantity">x${item.quantity}</span>
+            listItem.innerHTML = `<p>
+                ${item.name} - $${item.price} <span class="quantity">x${item.quantity}</span></p>
                 <button class="remove-item" data-index="${index}">Remove</button>
             `;
             cartItems.appendChild(listItem);
